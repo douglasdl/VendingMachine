@@ -1,0 +1,234 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+/* .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+} */
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0rem solid #ea00ff;
+}
+
+:root {
+    font-size: 62.5%;
+
+    /* Base spacing unit. */
+    --spacing-unit: 6px;
+
+    /* Base Scale */
+    --zoom-unit: 1rem;
+
+}
+
+
+.container {
+    background: #FFFFFF;
+    width: calc(30 * var(--width-unit));
+    height: calc(45 * var(--zoom-unit));
+}
+
+.mainBody {
+    background: #EB5757;
+    width: calc(30 * var(--zoom-unit));
+    height: calc(45 * var(--zoom-unit));
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.productsDisplay {
+    background: #FFFFFF;
+    top: calc(30 * var(--zoom-unit));
+    width: calc(26.4 * var(--zoom-unit));
+    height: calc(20 * var(--zoom-unit));
+    border-radius: calc(0.3 * var(--zoom-unit));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.productsUpper {
+    width: calc(25 * var(--zoom-unit));
+}
+
+.productsLower {
+    width: calc(25 * var(--zoom-unit));
+}
+.products {
+    width: 100%;
+    height: calc(7 * var(--zoom-unit));
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: calc(1 * var(--zoom-unit));
+}
+
+
+img {
+    width: calc(3 * var(--zoom-unit));
+    height: calc(7 * var(--zoom-unit));
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.prices {
+    background: #4D82E7;
+    height: calc(1 * var(--zoom-unit));
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.price {
+    color: #FFFFFF;
+}
+
+.leds {
+    background: #E7EBFF;
+    height: calc(1 * var(--zoom-unit));
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.led {
+    background: #FF0000;
+    width: calc(2 * var(--zoom-unit));
+    height: calc(0.8 * var(--zoom-unit));
+    border-radius: calc(4 * var(--zoom-unit));
+    font-size: calc(0.9 * var(--zoom-unit));
+    color: #FFFFFF;
+}
+
+.panelContainer {
+    background: #15ddc2;
+    display: flex;
+}
+
+.panel {
+    background: #121212;
+    width: calc(8.9 * var(--zoom-unit));
+    height: calc(5.2 * var(--zoom-unit));
+    border-radius: calc(0.4 * var(--zoom-unit));
+}
+
+.panelUpper {
+    display: flex;
+}
+
+.visor {
+    background: #383C44;
+    width: calc(4 * var(--zoom-unit));
+    height: calc(1.7 * var(--zoom-unit));
+
+}
+
+.coinInput {
+    background: #C9CEE6;
+    width: calc(1.8 * var(--zoom-unit));
+    height: calc(1.8 * var(--zoom-unit));
+    border-radius: calc(0.9 * var(--zoom-unit));
+}
+
+.panelLower {
+    display: flex;
+}
+
+.moneyInput {
+    background: #C4C4C4;
+    width: calc(4 * var(--zoom-unit));
+    height: calc(1.5 * var(--zoom-unit));
+}
+
+.changeReturn{
+    background: #ff8800;
+    width: calc(2.8 * var(--zoom-unit));
+    height: calc(1.5 * var(--zoom-unit));
+}
+
+.outputContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.output {
+    width: calc(19.1 * var(--zoom-unit));
+    height: calc(7.1 * var(--zoom-unit));
+
+    background: #464B55;
+    opacity: 0.9;
+    border: 0.3rem solid #000000;
+    box-sizing: border-box;
+    border-radius: calc(0.4 * var(--zoom-unit));;   
+}
+
+.lottery {
+    background: #6F5E5E;
+    width: calc(4.2 * var(--zoom-unit));
+    height: calc(3.3 * var(--zoom-unit));
+    
+    border: 0.2rem solid #000000;
+    border-radius: calc(0.8 * var(--zoom-unit));
+    color: #FF0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.base {
+    position: relative;
+    background: #ffffff;
+    width: calc(30 * var(--zoom-unit));
+    
+    top: 0rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leg {
+    background: #000000;
+    height: calc(0.7 * var(--zoom-unit));
+    width: calc(2.3 * var(--zoom-unit));
+    
+    flex-direction: row;
+    margin-left: calc(1 * var(--zoom-unit));
+    margin-right: calc(1 * var(--zoom-unit));
+}
+
+  
