@@ -9,59 +9,62 @@
     <script type="text/javascript" src="/eel.js"></script>
 </head>
 <body>
+    
     <div class="container">
         <div class="mainBody">
             <div class="productsDisplay">
                 <div class="productsUpper">
                     <div class="products">
+                        <img src="images/water.jpg" alt="">
                         <img src="images/coke.jpg" alt="">
-                        <img src="images/coke.jpg" alt="">
-                        <img src="images/coke.jpg" alt="">
-                        <img src="images/coke.jpg" alt="">
-                        <img src="images/coke.jpg" alt="">
+                        <img src="images/water.jpg" alt="">
+                        <img src="images/water.jpg" alt="">
+                        <img src="images/coffee.jpg" alt="">
                         <img src="images/coke.jpg" alt="">
                     </div>
                     <div class="prices">
-                        <div class="price">100</div>
-                        <div class="price">100</div>
-                        <div class="price">100</div>
-                        <div class="price">100</div>
-                        <div class="price">100</div>
-                        <div class="price">100</div>
+                        <div class="price">120</div>
+                        <div class="price">160</div>
+                        <div class="price">120</div>
+                        <div class="price">120</div>
+                        <div class="price">140</div>
+                        <div class="price">160</div>
                     </div>
                     <div class="leds">
-                        <button class="led">1</button>
-                        <button class="led">2</button>
-                        <button class="led">3</button>
-                        <button class="led">4</button>
-                        <button class="led">5</button>
-                        <button class="led">6</button>
+                        <!--<button class="button led" onclick="prompt_alerts('Hi button')">1</button>-->
+                        
+                        <button class="button redLed" id="button-product1">1</button>
+                        <button class="button redLed" id="button-product2">2</button>
+                        <button class="button redLed" id="button-product3">3</button>
+                        <button class="button redLed" id="button-product4">4</button>
+                        <button class="button redLed" id="button-product5">5</button>
+                        <button class="button redLed" id="button-product6">6</button>
                     </div>
                 </div>
                 <div class="productsLower">
                     <div class="products">
+                        <img src="images/coffee.jpg" alt="">
+                        <img src="images/lemon.jpg" alt="">
+                        <img src="images/lemon.jpg" alt="">
                         <img src="images/coke.jpg" alt="">
-                        <img src="images/coke.jpg" alt="">
-                        <img src="images/coke.jpg" alt="">
-                        <img src="images/coke.jpg" alt="">
-                        <img src="images/coke.jpg" alt="">
-                        <img src="images/coke.jpg" alt="">
+                        <img src="images/coffee.jpg" alt="">
+                        <img src="images/lemon.jpg" alt="">
                     </div>
                     <div class="prices">
-                        <div class="price">100</div>
-                        <div class="price">100</div>
-                        <div class="price">100</div>
-                        <div class="price">100</div>
-                        <div class="price">100</div>
-                        <div class="price">100</div>
+                        <div class="price">140</div>
+                        <div class="price">130</div>
+                        <div class="price">130</div>
+                        <div class="price">160</div>
+                        <div class="price">140</div>
+                        <div class="price">130</div>
                     </div>
                     <div class="leds">
-                        <button class="led">7</button>
-                        <button class="led">8</button>
-                        <button class="led">9</button>
-                        <button class="led">10</button>
-                        <button class="led">11</button>
-                        <button class="led">12</button>
+                        <button class="button redLed" id="button-product7">7</button>
+                        <button class="button redLed" id="button-product8">8</button>
+                        <button class="button redLed" id="button-product9">9</button>
+                        <button class="button redLed" id="button-product10">10</button>
+                        <button class="button redLed" id="button-product11">11</button>
+                        <button class="button redLed" id="button-product12">12</button>
                     </div>
                 </div>
             </div>
@@ -69,29 +72,46 @@
                 <div class="panel">
                     <div class="panelUpper">
                         <div class="visor">
-                            販売中
+                            <p id="visorText">
+                                販売中
+                            </p>
                         </div>
-                        <div class="coinInput">
+                        <div class="coinInput button" id="button-coinInput">
+                            <div class="coinHole">
 
+                            </div>
                         </div>
                     </div>
                     <div class=panelLower>
                         <div class="moneyInput">
-
+                            <div class="moneyHole">
+                                
+                            </div>
                         </div>
                         <div class="changeReturn">
-
+                            <img src="images/change1.png" alt="Change Lever Up" class="changeLever">
+                            <img src="images/change2.png" alt="Change Lever Down" class="changeLever changeLeverDown">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="outputContainer">
                 <div class="output">
+                    <div class="outputBottom">
 
+                    </div>
                 </div>
             
-                <div class="lottery">
-                    777
+                <div class="lotteryChangeCountainer">
+                    <div class="lottery">
+                        777
+                    </div>
+    
+                    <div class="changeOutput">
+                        <div class="coins">
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
